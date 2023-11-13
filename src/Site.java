@@ -1,4 +1,10 @@
-class Site { }
+class Site {
+    getBillableAmount(){
+        return getBaseAmount() + getTaxAmount();
+    }
+    getBaseAmount();
+    getTaxAmount();
+}
 
 class ResidentialSite extends Site {
     getBaseAmount();
